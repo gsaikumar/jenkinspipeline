@@ -7,9 +7,6 @@ pipeline {
             steps {
                 sh 'mvn --version'
             }
-            steps {
-                sh 'mvn clean"
-            }
         }
     }
 }
